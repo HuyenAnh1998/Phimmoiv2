@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Phimmoi\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1851496361.index
+2822322051.index
+297273771.index
+1365842692.index
+2314711877.index
+2752424185.index
