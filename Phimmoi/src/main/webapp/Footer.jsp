@@ -4,29 +4,28 @@
 <c:if
 	test="${categoryPhimBo!=null||categoryPhimLe!=null||categoryPhimChieuRap!=null||categoryPhimHoatHinh!=null}">
 	<hr
-		style="height: 3px; border: none; background-color: rgb(255, 200, 50);">	
-	<footer class="text-light">
-	<div class="container">
-		<h5>Liên hệ</h5>
-		<hr class="bg-white">
-		<div class="row">
-			<div class="col-12">
-				<ul class="list-unstyled">
-					<li><i class="bi bi-house-door-fill"></i> Địa chỉ: Chiến Thắng- Hà Nội</li>
-					<li><i class="bi bi-envelope-fill"></i> Email:xxxx@gmail.com</li>
-					<li><i class="bi bi-telephone-fill"></i> Sdt: 091234xxx</li>
-					<div style="padding: 10px;"></div>
-					<li><a href="#">Quay lại đầu trang</a></li>
-				</ul>
+		style="height: 3px; border: none; background-color: rgb(255, 200, 50);">
+	<footer class="text-white-50 bg-dark">
+			<div class=" container text-center">
+				<div class="views-row views-row-1" style="max-width: 1000px">
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-secondary" a href="#"> Full phim </a></button>
+						<button type="button" class="btn btn-secondary" a href="#"> Phim bộ</a></button>
+						<button type="button" class="btn btn-secondary" a href="#"> Phim lẻ</a></button>
+						<button type="button" class="btn btn-secondary" a href="#"> Phim hoạt hình</a></button>
+						<button type="button" class="btn btn-secondary" a href="#"> Phim hành động</a></button>
+						<button type="button" class="btn btn-secondary" a href="#"> Phim tình cảm</a></button>
+					</div>
+					<br>
+					<br>
+					<div class="text-center">
+						<p>designer ® 2021 Huyền Anh & Hoàng Thêu . <br> 
+							<b> xem phim hay chất lượng full hd</b> <br>Liên hệ:xxxx@gmail.com <br>
+							<a class="text-white-50 bg-dark" href="/sitemap.xml">sitemap</a> | <a class="text-white-50 bg-dark" href="/page/lien-he">contact</a>
+						</p>
+					</div>
+				</div>
 			</div>
-			<div style="padding: 10px;" class="col-12"></div>
-			<div class="col-12">
-				<p class="text-center text-muted">
-					<span> Bạn đang xem phim tại PHIM MỚI TV</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</footer>
+		</footer>
+	</footer>
 </c:if>
