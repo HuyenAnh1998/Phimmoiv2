@@ -1,0 +1,62 @@
+02-Oct-2021 14:13:58.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+02-Oct-2021 14:13:58.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+02-Oct-2021 14:13:58.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+02-Oct-2021 14:13:58.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Oct-2021 14:13:58.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Oct-2021 14:13:58.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Oct-2021 14:13:58.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\corretto-11.0.12\corretto-11.0.12
+02-Oct-2021 14:13:58.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7-LTS
+02-Oct-2021 14:13:58.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+02-Oct-2021 14:13:58.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Phimmoi\apache-tomcat-9.0.46
+02-Oct-2021 14:13:58.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Phimmoi\apache-tomcat-9.0.46
+02-Oct-2021 14:13:58.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Oct-2021 14:13:58.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Oct-2021 14:13:58.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Oct-2021 14:13:58.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Oct-2021 14:13:58.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Oct-2021 14:13:58.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Phimmoi\apache-tomcat-9.0.46\conf\logging.properties
+02-Oct-2021 14:13:58.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2021 14:13:58.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2021 14:13:58.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Oct-2021 14:13:58.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Oct-2021 14:13:58.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Phimmoi\apache-tomcat-9.0.46
+02-Oct-2021 14:13:58.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Phimmoi\apache-tomcat-9.0.46
+02-Oct-2021 14:13:58.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Phimmoi\apache-tomcat-9.0.46\temp
+02-Oct-2021 14:13:58.054 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\corretto-11.0.12\corretto-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\GIT\install\Git\cmd;C:\Program Files\nodejs\;C:\corretto-11.0.12\corretto-11.0.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;;C:\VSCode\Install\Microsoft VS Code\bin;C:\Users\PC\AppData\Roaming\npm;.]
+02-Oct-2021 14:13:58.428 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Oct-2021 14:13:58.600 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+02-Oct-2021 14:13:59.028 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1250] milliseconds
+02-Oct-2021 14:13:59.093 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Oct-2021 14:13:59.093 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+02-Oct-2021 14:13:59.119 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\Phimmoi\apache-tomcat-9.0.46\webapps\phimmoi.war]
+02-Oct-2021 14:14:01.413 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2021 14:14:01.563 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\Phimmoi\apache-tomcat-9.0.46\webapps\phimmoi.war] has finished in [2,444] ms
+02-Oct-2021 14:14:01.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\docs]
+02-Oct-2021 14:14:01.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\docs] has finished in [22] ms
+02-Oct-2021 14:14:01.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\examples]
+02-Oct-2021 14:14:02.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\examples] has finished in [462] ms
+02-Oct-2021 14:14:02.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\host-manager]
+02-Oct-2021 14:14:02.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\host-manager] has finished in [33] ms
+02-Oct-2021 14:14:02.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\manager]
+02-Oct-2021 14:14:02.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\manager] has finished in [37] ms
+02-Oct-2021 14:14:02.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\ROOT]
+02-Oct-2021 14:14:02.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\ROOT] has finished in [27] ms
+02-Oct-2021 14:14:02.155 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Oct-2021 14:14:02.167 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+02-Oct-2021 14:14:02.171 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3142] milliseconds
+02-Oct-2021 16:34:46.418 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Oct-2021 16:34:46.451 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Oct-2021 16:34:46.665 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+02-Oct-2021 16:34:46.868 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Oct-2021 16:34:47.163 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [phimmoi] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Oct-2021 16:34:47.163 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [phimmoi] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/java.lang.Object.wait(Native Method)
+ java.base@11.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:829)
+02-Oct-2021 16:34:47.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Oct-2021 16:34:47.203 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+02-Oct-2021 16:34:47.306 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Oct-2021 16:34:47.312 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]

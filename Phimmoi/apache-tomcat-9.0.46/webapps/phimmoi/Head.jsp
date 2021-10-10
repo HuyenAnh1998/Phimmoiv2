@@ -1,123 +1,124 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <c:if
 	test="${categoryPhimBo!=null||categoryPhimLe!=null||categoryPhimChieuRap!=null||categoryPhimHoatHinh!=null}">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-9">
-				<h1>
+				<h1 style="line-height: 60px; height: 50px;">
 					<a href="home" class="nav-link" style="color: rgb(240, 240, 240);">PHIM
 						MOI</a>
 				</h1>
 			</div>
 
-			<div class="col-lg-3" style="margin-top: 15px;">
+			<div class="col-lg-3" style="margin-top: 22px;">
 				<form class="form-inline my-2 my-lg-0">
 					<div class="input-group input-group-sm" style="width: 100%;">
-						<input oninput="searchByName(this)" value="${txt }" type="text"
+						<input oninput="searchByName(this)" value="${txt}" type="text"
 							class="form-control" aria-label="Small"
 							aria-describedby="inputGroup-sizing-sm"
 							placeholder="Tìm kiếm theo tên phim">
 						<div class="input-group-append">
-							<dvi class="btn btn-primary btn-number"> <i
-								class="bi bi-search"></i>
+							<div class="btn btn-number"
+								style="background-color: rgb(255, 200, 50);">
+								<i class="bi bi-search" style="color: white;"></i>
+							</div>
 						</div>
 					</div>
+				</form>
 			</div>
-			</form>
 		</div>
 	</div>
-	</div>
-	<hr
-		style="height: 3px; border: none; background-color: rgb(255, 200, 50);">
-	<div class="container">
-		<div class="row">
-			<nav class="col-lg-9">
-				<div class="btn-group">
-					<button type="button"
-						class="btn btn-secondary dropdown-toggle menu1"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phim
-						bộ</button>
-					<div class="dropdown-menu dropdown-menu-right">
-						<c:forEach items="${categoryPhimBo}" var="o">
-							<a class="dropdown-item menu2"
-								href="search?type=Phim%20bộ&category=${o }">${o }</a>
-						</c:forEach>
-					</div>
-				</div>
-				<div class="btn-group">
-					<button type="button"
-						class="btn btn-secondary dropdown-toggle  menu1"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phim
-						lẻ</button>
-					<div class="dropdown-menu dropdown-menu-right">
-						<c:forEach items="${categoryPhimLe}" var="o">
-							<a class="dropdown-item menu2"
-								href="search?type=Phim%20lẻ&category=${o }">${o }</a>
-						</c:forEach>
-					</div>
-				</div>
-				<div class="btn-group">
-					<button type="button"
-						class="btn btn-secondary dropdown-toggle menu1"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phim
-						chiếu rạp</button>
-					<div class="dropdown-menu dropdown-menu-right">
-						<c:forEach items="${categoryPhimChieuRap}" var="o">
-							<a class="dropdown-item menu2"
-								href="search?type=Phim%20chiếu%20rạp&category=${o }">${o }</a>
-						</c:forEach>
-					</div>
-				</div>
-				<div class="btn-group">
-					<button type="button"
-						class="btn btn-secondary dropdown-toggle menu1"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phim
-						hoạt hình</button>
-					<div class="dropdown-menu dropdown-menu-right">
-						<c:forEach items="${categoryPhimHoatHinh}" var="o">
-							<a class="dropdown-item menu2"
-								href="search?type=Phim%20hoạt%20hình&category=${o }">${o }</a>
-						</c:forEach>
-					</div>
-				</div>
-				<c:if test="${sessionScope.admin!=null || sessionScope.user!=null}">
-					<div class="btn-group">
-						<a href="logout"><button type="button"
-								class="btn btn-secondary menu1">Đăng xuất</button></a>
-					</div>
-				</c:if>
-				<c:if test="${sessionScope.admin!=null}">
-					<div class="btn-group">
-						<button data-toggle="modal" data-target="#add" type="button"
-							class="btn btn-secondary menu1">Thêm phim</button>
-					</div>
-				</c:if>
-				<c:if test="${sessionScope.admin!=null}">
-					<div class="btn-group">
-						<button data-toggle="modal" data-target="#admin" type="button"
-							class="btn btn-secondary menu1">Admin</button>
-					</div>
-				</c:if>
-				<c:if test="${sessionScope.admin!=null}">
-					<div class="btn-group">
-						<button data-toggle="modal" data-target="#report" type="button"
-							class="btn btn-secondary menu1">
-							<i class="bi bi-bell-fill"></i>
-						</button>
-					</div>
-				</c:if>
-				<c:if test="${sessionScope.user==null}">
-					<div class="btn-group">
-						<a
-							href="https://www.facebook.com/dialog/oauth?client_id=667188987589328&redirect_uri=https://localhost:8443/phimmoi/login-facebook"><button
-								type="button" class="btn btn-secondary menu1">Đăng nhập</button></a>
-					</div>
-				</c:if>
 
-			</nav>
-		</div>
+	<hr style="height: 3px; border: none; background-color: rgb(255, 200, 50);">
+
+	<div class="container">
+		<nav>
+	        <ul class="root">
+	            <li><a href="#" class="dropdown-toggle menu1"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	            >Phim bộ</a>
+	            	<ul class="sub-menu">
+	            		<c:forEach items="${categoryPhimBo}" var="o">
+							<li><a href="search?type=Phim%20bộ&category=${o}">${o}</a></li>
+						</c:forEach>
+	                </ul>
+	            </li>
+	            <li><a href="#" class="dropdown-toggle menu1"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	            >Phim lẻ</a>
+					<ul class="sub-menu">
+	            		<c:forEach items="${categoryPhimLe}" var="o">
+							<li><a href="search?type=Phim%20lẻ&category=${o }">${o}</a></li>
+						</c:forEach>
+	                </ul>
+	            </li>
+	            <li><a href="#" class="dropdown-toggle menu1"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	            >Phim chiếu rạp</a>
+	            	<ul class="sub-menu">
+		            	<c:forEach items="${categoryPhimChieuRap}" var="o">
+							<li><a href="search?type=Phim%20chiếu%20rạp&category=${o}">${o}</a></li>
+						</c:forEach>
+					</ul>
+	            </li>
+	            <li><a href="#" class="dropdown-toggle menu1"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	            >Phim hoạt hình</a>
+	                <ul class="sub-menu">
+	            		<c:forEach items="${categoryPhimHoatHinh}" var="o">
+							<li><a href="search?type=Phim%20hoạt%20hình&category=${o}">${o}</a></li>
+						</c:forEach>
+	                </ul>
+	            </li>
+	        </ul>
+	        
+			<c:if test="${sessionScope.admin!=null || sessionScope.user!=null}">
+				<div class="btn-group">
+					<a href="logout"><button type="button"
+							class="btn btn-secondary menu1">Đăng xuất</button></a>
+				</div>
+			</c:if>
+			<c:if test="${sessionScope.admin!=null}">
+				<div class="btn-group">
+					<button data-toggle="modal" data-target="#admin" type="button"
+						class="btn btn-secondary menu1">Admin</button>
+				</div>
+			</c:if>
+			<c:if test="${sessionScope.admin!=null}">
+				<div class="btn-group">
+					<button data-toggle="modal" data-target="#add" type="button"
+						class="btn btn-secondary menu1">
+						<i class="bi bi-plus-circle"></i>
+					</button>
+				</div>
+			</c:if>
+			<c:if test="${sessionScope.admin!=null}">
+				<div class="btn-group">
+					<button data-toggle="modal" data-target="#report" type="button"
+						class="btn btn-secondary menu1">
+						<i class="bi bi-bell-fill"></i>
+					</button>
+				</div>
+			</c:if>
+			<c:if test="${sessionScope.user!=null}">
+				<div class="btn-group">
+					<button data-toggle="modal" data-target="#history" type="button"
+						class="btn btn-secondary menu1">
+						<i class="bi bi-clock-history"></i>
+					</button>
+				</div>
+			</c:if>
+			<c:if test="${sessionScope.user==null}">
+				<div class="btn-group">
+					<a
+						href="https://www.facebook.com/dialog/oauth?client_id=667188987589328&redirect_uri=https://localhost:8443/phimmoi/login-facebook"><button
+							type="button" class="btn btn-secondary menu1">Đăng nhập</button></a>
+				</div>
+			</c:if>
+	</nav>
 		<hr
 			style="height: 1px; border: none; background-color: rgb(240, 240, 240);">
 	</div>
@@ -171,7 +172,31 @@
 				<div class="modal-body">
 					<ul>
 						<c:forEach items="${report}" var="o">
-							<li><a href="report?id=${o.id }">${o.title }</a></li>
+							<li><a href="report?id=${o.id }" class="nav-link">${o.title }</a></li>
+						</c:forEach>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Get history -->
+	<div class="modal fade" id="history" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Lịch sử</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<c:forEach items="${history}" var="o">
+							<li><a href="detail?id=${o.id }" class="nav-link"> <span> ${o.title } </span><span style="color: red;"> ${o.time } </span>
+							</a></li>
 						</c:forEach>
 					</ul>
 				</div>

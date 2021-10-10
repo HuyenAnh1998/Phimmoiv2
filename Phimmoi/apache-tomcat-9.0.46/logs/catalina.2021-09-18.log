@@ -1,0 +1,78 @@
+18-Sep-2021 00:25:31.452 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Sep-2021 00:25:31.484 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 00:25:31.651 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 00:25:31.785 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Sep-2021 00:25:32.103 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [phimmoi] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Sep-2021 00:25:32.106 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [phimmoi] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/java.lang.Object.wait(Native Method)
+ java.base@11.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:829)
+18-Sep-2021 00:25:32.117 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 00:25:32.126 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 00:25:32.189 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 00:25:32.192 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 13:42:14.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+18-Sep-2021 13:42:14.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\corretto-11.0.12\corretto-11.0.12
+18-Sep-2021 13:42:14.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7-LTS
+18-Sep-2021 13:42:14.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Sep-2021 13:42:14.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Phimmoi\apache-tomcat-9.0.46
+18-Sep-2021 13:42:14.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Phimmoi\apache-tomcat-9.0.46
+18-Sep-2021 13:42:14.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Sep-2021 13:42:14.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Sep-2021 13:42:14.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Sep-2021 13:42:14.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Sep-2021 13:42:14.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Sep-2021 13:42:14.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Phimmoi\apache-tomcat-9.0.46\conf\logging.properties
+18-Sep-2021 13:42:14.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2021 13:42:14.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2021 13:42:14.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2021 13:42:14.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Sep-2021 13:42:14.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Phimmoi\apache-tomcat-9.0.46
+18-Sep-2021 13:42:14.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Phimmoi\apache-tomcat-9.0.46
+18-Sep-2021 13:42:14.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Phimmoi\apache-tomcat-9.0.46\temp
+18-Sep-2021 13:42:14.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\corretto-11.0.12\corretto-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\GIT\install\Git\cmd;C:\Program Files\nodejs\;C:\jdk11\jdk-11.0.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;;C:\VSCode\Install\Microsoft VS Code\bin;C:\Users\PC\AppData\Roaming\npm;.]
+18-Sep-2021 13:42:14.790 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 13:42:14.926 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 13:42:15.325 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1018] milliseconds
+18-Sep-2021 13:42:15.377 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Sep-2021 13:42:15.378 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+18-Sep-2021 13:42:15.401 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\Phimmoi\apache-tomcat-9.0.46\webapps\phimmoi.war]
+18-Sep-2021 13:42:16.792 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Sep-2021 13:42:16.919 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\Phimmoi\apache-tomcat-9.0.46\webapps\phimmoi.war] has finished in [1,517] ms
+18-Sep-2021 13:42:16.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\docs]
+18-Sep-2021 13:42:16.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\docs] has finished in [17] ms
+18-Sep-2021 13:42:16.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\examples]
+18-Sep-2021 13:42:17.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\examples] has finished in [311] ms
+18-Sep-2021 13:42:17.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\host-manager]
+18-Sep-2021 13:42:17.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\host-manager] has finished in [30] ms
+18-Sep-2021 13:42:17.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\manager]
+18-Sep-2021 13:42:17.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\manager] has finished in [29] ms
+18-Sep-2021 13:42:17.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\ROOT]
+18-Sep-2021 13:42:17.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Phimmoi\apache-tomcat-9.0.46\webapps\ROOT] has finished in [24] ms
+18-Sep-2021 13:42:17.342 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 13:42:17.351 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 13:42:17.354 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2028] milliseconds
+18-Sep-2021 17:48:49.181 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Sep-2021 17:48:49.195 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 17:48:49.339 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 17:48:49.519 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Sep-2021 17:48:49.710 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [phimmoi] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Sep-2021 17:48:49.713 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [phimmoi] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/java.lang.Object.wait(Native Method)
+ java.base@11.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:829)
+18-Sep-2021 17:48:49.730 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 17:48:49.755 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+18-Sep-2021 17:48:49.876 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Sep-2021 17:48:49.879 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]

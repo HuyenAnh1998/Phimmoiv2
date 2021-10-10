@@ -1,0 +1,27 @@
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:14:07 +0700] "-" 400 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:14:14 +0700] "GET /phimmoi/home HTTP/1.1" 200 126958
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:14:18 +0700] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:20:16 +0700] "GET /phimmoi/home HTTP/1.1" 200 126958
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:20:17 +0700] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:21:17 +0700] "GET /phimmoi/login-facebook?code=AQAWI7tNoCcmqVE9ObjU2mEaxUMS29mKdWQabRtDJyGkKxUwpXzO-t-paydOAGKQqe8gsk6Z_NZVoF2ab0Ic-qYK4DJzz6iUge8hzgWDrNH3juPITkBHD9KcNswoI_-vEmP526ovi1yLl4_NU1i1U7FPdLMX9i0_rAuXcDWNL6MmTGeiRG0FTzBTEezWmlkpRGhF-Nl-Gh1SdcRS2XRW4U02NmSeC8PUlEvnTZ4sQdMPU206VC0F4n79ZvXMKxZ6AlvovElChryexkTzQS1A0j_Miw4IOiKsZkoYIxIh1b2pycoPjKjAE5SXRDPP6O66ns12FXPaMFIh5EaPF3zkHSw62qqz48Ca1Wce-csXTpiEsVLKZHPAvvPC5WEYisiLluqTM-hJEWsq2nBrL8nKvAcI HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:21:18 +0700] "GET /phimmoi/home HTTP/1.1" 200 142101
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:25:18 +0700] "GET /phimmoi/detail?id=8196 HTTP/1.1" 200 76085
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:26:13 +0700] "GET /phimmoi/detail?id=7823 HTTP/1.1" 200 64483
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:28:50 +0700] "GET /phimmoi/home HTTP/1.1" 200 151397
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:28:57 +0700] "GET /phimmoi/detail?id=7879 HTTP/1.1" 200 95826
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:30:48 +0700] "GET /phimmoi/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:30:48 +0700] "GET /phimmoi/home HTTP/1.1" 200 135899
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:30:53 +0700] "GET /phimmoi/detail?id=7879 HTTP/1.1" 200 74769
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:20 +0700] "GET /phimmoi/login HTTP/1.1" 200 3114
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:28 +0700] "POST /phimmoi/login HTTP/1.1" 200 3314
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:35 +0700] "POST /phimmoi/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:35 +0700] "GET /phimmoi/home HTTP/1.1" 200 136655
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:39 +0700] "GET /phimmoi/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:40 +0700] "GET /phimmoi/home HTTP/1.1" 200 135899
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:44 +0700] "GET /phimmoi/login-facebook?code=AQAof9bQ1_Apy1A_CRFUL3mdpsvWbmaDWnEN9hl3eNhQpCH-YCpyN-pjYYMyLF0ah-a4dpIdyo38n_bf4HMDKLf_5TGv2-W5GpmrI9szr2UrJHOTU7EftiFymFIXSc8709t59Be9wC2E7k9i6AdRblNHztGM_tUsqWL6U0P3Vh8nK_pDhnZduOgFQqAtYlMP7NhuGBGreqW4wDVXh3JbPMumOXG8XBqy6RIJogQrk0xQ9ZX1G2XKuanUc5YlG59l0NfY_6fKGZH_MXzEmLRZIpzMVaxTRZR3IV8VVl0kUtUgWvYeREwQiRim8aRzsteFWnMMVCYlZP83GoFz-sDcn-Q-K3z8p1TTB4-9Llavo00PlM2GnzJ6xDEjwqjzB0NEecGFDqMw3y_G8-zusnA7wOHo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:45 +0700] "GET /phimmoi/home HTTP/1.1" 200 151583
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:53 +0700] "GET /phimmoi/home HTTP/1.1" 200 151583
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:54 +0700] "GET /phimmoi/home HTTP/1.1" 200 151583
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:32:59 +0700] "GET /phimmoi/login HTTP/1.1" 200 3114
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:33:06 +0700] "POST /phimmoi/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2021:14:33:07 +0700] "GET /phimmoi/home HTTP/1.1" 200 152187

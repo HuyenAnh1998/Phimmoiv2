@@ -1,7 +1,7 @@
 package entity;
 
 public class Phim {
-	private int id;
+	private long id;
 	private String type;
 	private String category;
 	private String episode;
@@ -10,13 +10,14 @@ public class Phim {
 	private String title;
 	private long view;
 	private boolean report;
+	private long sumEpisode;
 
 	public Phim() {
 		super();
 	}
 
-	public Phim(int id, String type, String category, String episode, String episodeURL, String imageURL, String title,
-			long view, boolean report) {
+	public Phim(long id, String type, String category, String episode, String episodeURL, String imageURL, String title,
+			long view, boolean report, long sumEpisode) {
 		super();
 		this.id = id;
 		this.type = type;
@@ -27,13 +28,14 @@ public class Phim {
 		this.title = title;
 		this.view = view;
 		this.report = report;
+		this.sumEpisode=sumEpisode;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -101,11 +103,21 @@ public class Phim {
 		this.report = report;
 	}
 
+	public long getSumEpisode() {
+		return sumEpisode;
+	}
+
+	public void setSumEpisode(long sumEpisode) {
+		this.sumEpisode = sumEpisode;
+	}
+
 	@Override
 	public String toString() {
 		return "Phim [id=" + id + ", type=" + type + ", category=" + category + ", episode=" + episode + ", episodeURL="
 				+ episodeURL + ", imageURL=" + imageURL + ", title=" + title + ", view=" + view + ", report=" + report
-				+ "]";
+				+ ", sumEpisode=" + sumEpisode + "]";
 	}
+
+	
 
 }

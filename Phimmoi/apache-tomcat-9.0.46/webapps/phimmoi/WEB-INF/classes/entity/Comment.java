@@ -1,18 +1,19 @@
 package entity;
 
 public class Comment {
-	private int id;
+	private long id;
 	private String content;
 	private long user_id;
 	private String time;
 	private String name;
-	private int phim_id;
+	private long phim_id;
+	private boolean edit;
 
 	public Comment() {
 		super();
 	}
 
-	public Comment(int id, String content, long user_id, String time, String name, int phim_id) {
+	public Comment(long id, String content, long user_id, String time, String name, long phim_id, boolean edit) {
 		super();
 		this.id = id;
 		this.content = content;
@@ -20,21 +21,30 @@ public class Comment {
 		this.time = time;
 		this.name = name;
 		this.phim_id = phim_id;
+		this.edit = edit;
 	}
 
-	public int getPhim_id() {
+	public boolean isEdit() {
+		return edit;
+	}
+
+	public void setEdit(boolean edit) {
+		this.edit = edit;
+	}
+
+	public long getPhim_id() {
 		return phim_id;
 	}
 
-	public void setPhim_id(int phim_id) {
+	public void setPhim_id(long phim_id) {
 		this.phim_id = phim_id;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -72,8 +82,8 @@ public class Comment {
 
 	@Override
 	public String toString() {
-		return "Comment [id=" + id + ", content=" + content + ", user_id=" + user_id + ", phim_id=" + phim_id
-				+ ", time=" + time + ", name=" + name + "]";
+		return "Comment [id=" + id + ", content=" + content + ", user_id=" + user_id + ", time=" + time + ", name="
+				+ name + ", phim_id=" + phim_id + ", edit=" + edit + "]";
 	}
 
 }
