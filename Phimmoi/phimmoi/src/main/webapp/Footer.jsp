@@ -10,7 +10,7 @@
 				<div class="views-row views-row-1" style="max-width: 1000px">
 					<div class="btn-group" role="group" aria-label="Basic example">
 						<button type="button" class="btn btn-secondary" a href="#"> Full phim </a></button>
-						<button type="button" class="btn btn-secondary" a href="#"> Phim bộ</a></button>
+						<submit type="button" class="btn btn-secondary" a href="test="${phimBoCapNhat==null}"> Phim bộ</a></submit>
 						<button type="button" class="btn btn-secondary" a href="#"> Phim lẻ</a></button>
 						<button type="button" class="btn btn-secondary" a href="#"> Phim hoạt hình</a></button>
 						<button type="button" class="btn btn-secondary" a href="#"> Phim hành động</a></button>

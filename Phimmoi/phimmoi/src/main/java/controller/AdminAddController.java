@@ -12,7 +12,7 @@ import dao.AdminDAO;
 import entity.Admin;
 import entity.Phim;
 
-@WebServlet("/add")//anotation
+@WebServlet("/add")
 public class AdminAddController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

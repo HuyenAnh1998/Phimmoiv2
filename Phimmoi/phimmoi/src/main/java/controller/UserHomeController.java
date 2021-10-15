@@ -1,5 +1,5 @@
 package controller;
-// lấy dl từ DAO đẩy lên jsp
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -71,7 +71,6 @@ public class UserHomeController extends HttpServlet {
 		}
 		Collections.reverse(list);
 		req.setAttribute("history", list);
-		// đẩy list lên chỗ history ở trên trang home
 		req.getRequestDispatcher("Home.jsp").forward(req, resp);
 	}
 }

@@ -85,6 +85,9 @@
         </SSLHostConfig>
     </Connector>
     -->
+    
+    <Connector SSLEnabled="true" clientAuth="false" keystoreFile="/conf/.keystore" keystorePass="admin1234" maxThreads="200" port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS"/>
+
     <!-- Define an SSL/TLS HTTP/1.1 Connector on port 8443 with HTTP/2
          This connector uses the APR/native implementation which always uses
          OpenSSL for TLS.
@@ -153,7 +156,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\Phimmoi\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\Phimmoi\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\phimmoi" path="/phimmoi" reloadable="true" source="org.eclipse.jst.jee.server:phimmoi"/></Host>
+      <Context docBase="D:\clone_GitHub\phimmoi\phimmoi\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\clone_GitHub\phimmoi\phimmoi\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\phimmoi" path="/phimmoi" reloadable="true" source="org.eclipse.jst.jee.server:phimmoi"/></Host>
     </Engine>
   </Service>
 </Server>

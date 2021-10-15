@@ -22,7 +22,6 @@ public class UserDAO {
 			PreparedStatement sta = conn.prepareStatement(sql);
 			sta.setString(1, "Phim lẻ");
 			ResultSet rs = sta.executeQuery();
-			// lấy dữ liệu từ rs đổ vào list
 			while (rs.next()) {
 				list.add(rs.getString(1));
 			}
@@ -98,14 +97,13 @@ public class UserDAO {
 	public List<Phim> getPhimDeCu() {
 		List<Phim> list = new ArrayList<>();
 		try {
-			String sql = "select *,count(*) from phim group by(title) order by(sum(`view`)) desc limit 12;";
+			String sql = "select * from phim group by(title) order by(sum(`view`)) desc limit 12;";
 			Connection conn = new DBContext().getConnection();
 			PreparedStatement sta = conn.prepareStatement(sql);
 			ResultSet rs = sta.executeQuery();
-			// lấy dữ liệu từ rs đổ vào list
 			while (rs.next()) {
 				list.add(new Phim(rs.getLong(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5),
-						rs.getString(6), rs.getString(7), rs.getLong(8), rs.getBoolean(9),rs.getLong(10)));
+						rs.getString(6), rs.getString(7), rs.getLong(8), rs.getBoolean(9),0));
 			}
 			rs.close();
 			sta.close();
